@@ -23,20 +23,26 @@ const images = [
   },
 ];
 
+const Page = styled.div({
+  padding: 24,
+});
+
 export default function Root() {
   return (
-    <div>
-      sddsds
-      <Link href="/contact">
-        <Header
-          style={{
-            fontWeight: "bold",
-          }}
-        >
-          flap
-        </Header>
-      </Link>
+    <>
+      <Page>
+        <Link href="/contact">
+          <Header
+            style={{
+              fontWeight: "bold",
+            }}
+          >
+            flap
+          </Header>
+        </Link>
+      </Page>
+
       <Gallery someProp="yyy" items={images}></Gallery>
-    </div>
+    </>
   );
 }

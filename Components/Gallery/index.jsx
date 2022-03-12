@@ -12,7 +12,7 @@ const GridItem = styled.div({
   margin: 24,
   width: 300,
   height: 300,
-  border: "1px solid blue",
+  border: "10px solid blue",
   "@media (max-width: 768px)": {
     width: 100,
     height: 100,
