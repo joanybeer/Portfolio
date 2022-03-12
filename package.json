@@ -1,0 +1,21 @@
+{
+  "name": "@joanes/potfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "watch": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "yarn lint && yarn build",
+  },
+  "dependencies": {
+    "next": "12.0.10",
+    "next-seo": "^5.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  },
+}
