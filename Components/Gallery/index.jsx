@@ -13,6 +13,10 @@ const GridItem = styled.div({
   width: 300,
   height: 300,
   border: "1px solid blue",
+  "@media (max-width: 768px)": {
+    width: 100,
+    height: 100,
+  },
 });
 
 export default function Gallery({ items }) {
